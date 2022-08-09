@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .App {
   text-align: center;
 }
@@ -27,7 +31,65 @@
 .App-link {
   color: #61dafb;
 }
+.ft{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+ margin-top: 80vh;
+}
 
+.card-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.im{
+  width: 350px;
+  margin: 70px;
+}
+.img-box{
+  margin-left: 15rem;
+}
+.img-box button{
+  margin-top: 0.5rem;
+}
+
+.Znav{
+  z-index: 5;
+}
+
+.bgBlur{
+  background-color: rgba(0,0,0,.5) ;
+  z-index: 5;
+  border-radius: 10px;
+}
+
+.fm-1{
+  display: flex;
+ 
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-left: 1rem;
+  
+}
+.r {
+  flex-direction: row;
+  
+}
+.in-1{
+  color: rgb(183, 181, 215);
+  margin-right: 1rem;
+}
+.r div {
+  width: 400px;
+}
+.fm-1 input{
+  margin-top: 0.25rem;
+  width: 500px;
+}
+.bt {
+
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -36,3 +98,5 @@
     transform: rotate(360deg);
   }
 }
+
+
